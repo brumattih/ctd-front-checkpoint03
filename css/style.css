@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+
+
+body{
+    background-color: black;
+    height: 1000px;
+    font-size: 20px;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+.navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+#banner{
+    position: relative;
+    padding-top: 10vh;
+    width: 90vw;
+    background-attachment: fixed;
+
+}
+
+#sinopseprincipal{
+    color: white;
+    font-size: 1.5rem;
+    text-align: start;
+}
+
+.quote{
+    font-size: 0.7rem;
+    color: whitesmoke;
+    text-align: right;
+}
+
+.img1{
+    display: flex;
+    justify-content: right;
+    margin: 0vw 0vw 0vw 5vw;
+}
+
+/* .row{
+    margin: 10vw 10vw;
+    justify-content: center;
+} */
+
+.midImg{
+    width: 15vw;
+}
+
+body.bg_filmes {
+    background-image: url(../img/loginBrackground.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+#box_login {
+    background: rgba(0, 0, 0, 0.7);
+    margin-top: 10%;
+}
